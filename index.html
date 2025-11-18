@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>AI Portfolio</title>
+</head>
+<body>
+    <!-- Theme Selector -->
+    <div class="theme-selector">
+        <h4>Theme Color</h4>
+        <div class="theme-buttons">
+            <div class="theme-btn active" onclick="setTheme('#2563eb', '#1e40af', '#3b82f6', '#0ea5e9')" 
+                 style="background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);"></div>
+            <div class="theme-btn" onclick="setTheme('#7c3aed', '#6d28d9', '#8b5cf6', '#a78bfa')" 
+                 style="background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);"></div>
+            <div class="theme-btn" onclick="setTheme('#059669', '#047857', '#10b981', '#34d399')" 
+                 style="background: linear-gradient(135deg, #059669 0%, #34d399 100%);"></div>
+            <div class="theme-btn" onclick="setTheme('#dc2626', '#b91c1c', '#ef4444', '#f87171')" 
+                 style="background: linear-gradient(135deg, #dc2626 0%, #f87171 100%);"></div>
+            <div class="theme-btn" onclick="setTheme('#ea580c', '#c2410c', '#f97316', '#fb923c')" 
+                 style="background: linear-gradient(135deg, #ea580c 0%, #fb923c 100%);"></div>
+            <div class="theme-btn" onclick="setTheme('#0891b2', '#0e7490', '#06b6d4', '#22d3ee')" 
+                 style="background: linear-gradient(135deg, #0891b2 0%, #22d3ee 100%);"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">Akassh</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container hero">
+            <div class="hero-content">
+                <span class="hero-label">Welcome to my portfolio</span>
+                <h1>Hi, I'm <span class="highlight">Akassh</span><br>Front-End Developer</h1>
+                <p>I craft elegant digital experiences with clean code and modern design principles. Specializing in web development, UI/UX design, and innovative solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">👨‍💻</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Turning Ideas Into Reality</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Professional Background</h3>
+                    <p>With over 5 years of experience in software development, I specialize in creating robust, scalable applications that solve real-world problems. My expertise spans across modern web technologies, cloud architecture, and user-centered design.</p>
+                    <p>I'm passionate about staying at the forefront of technology trends and continuously improving my craft to deliver exceptional results for clients and users alike.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">My Expertise</div>
+                <h2 class="section-title">Professional Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>Expert in React, Vue.js, and modern JavaScript frameworks. Creating responsive and performant user interfaces.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Proficient in Node.js, Python, and database design. Building scalable server-side applications and APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive interfaces with tools like Figma and Adobe XD. Focus on user experience and accessibility.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Experience with AWS, Docker, and CI/CD pipelines. Deploying and managing cloud infrastructure.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>Building cross-platform mobile apps with React Native and Flutter for iOS and Android.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <h3>SEO & Analytics</h3>
+                    <p>Optimizing websites for search engines and implementing analytics to track user behavior and performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🏪</div>
+                    <div class="project-content">
+                        <span class="project-tag">E-Commerce</span>
+                        <h3>Modern Shopping Platform</h3>
+                        <p>A full-featured e-commerce solution with payment integration, inventory management, and real-time analytics dashboard.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%);">📊</div>
+                    <div class="project-content">
+                        <span class="project-tag">SaaS</span>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Enterprise-grade analytics platform with custom reporting, data visualization, and team collaboration features.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);">📱</div>
+                    <div class="project-content">
+                        <span class="project-tag">Mobile App</span>
+                        <h3>Fitness Tracking App</h3>
+                        <p>Cross-platform mobile application for health monitoring with workout plans, nutrition tracking, and social features.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Get In Touch</div>
+                <h2 class="section-title">Let's Work Together</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Ready to start your project?</h3>
+                    <p>I'm currently available for freelance work and new opportunities. Let's discuss how I can help bring your ideas to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p>akasshpm@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-item-text">
+                                <h4>Phone</h4>
+                                <p>+91 8614752857</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form"  action="https://formsubmit.co/akasshpm@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                       <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link">💼</a>
+                <a href="#" class="social-link">🔗</a>
+                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">📷</a>
+            </div>
+            <p class="footer-text">© 2025 P M Sai Akassh. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
