@@ -203,21 +203,12 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" onsubmit="handleSubmit(event)" method="POST">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
+               <form onsubmit="handleSubmit(event)" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
             </div>
         </div>
     </section>
@@ -236,4 +227,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
