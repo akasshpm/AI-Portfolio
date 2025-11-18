@@ -203,7 +203,8 @@
                         </div>
                     </div>
                 </div>
-               <form onsubmit="handleSubmit(event)" method="POST">
+              <form action="send-email.php" method="POST">
+    <!-- ↑ This links directly to PHP -->
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Message" required></textarea>
@@ -229,3 +230,4 @@
 </body>
 
 </html>
+
